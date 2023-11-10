@@ -83,7 +83,7 @@
 	</distributionManagement>
 
 	<build>
-	 <finalName>jendarey-voting-app-main</finalName>
+	 <finalName>vote</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
