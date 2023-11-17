@@ -2,7 +2,8 @@
 FROM ubuntu AS builder
 
 # Install required dependencies
-RUN apt-get update && apt-get install openjdk-17-jdk maven git -y 
+RUN apt-get update && apt-get install -y openjdk-17-jdk
+RUN apt-get install -y maven git
 
 # Clone the application repository
 RUN git clone https://github.com/JendareyTechnologies/Jendarey-Engineers-Voting-Result-App-Main-Project.git /app
