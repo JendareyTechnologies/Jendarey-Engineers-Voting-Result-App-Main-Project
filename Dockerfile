@@ -1,5 +1,5 @@
 # Use the official Tomcat image as the base image
-FROM tomcat:10.1.13-jdk17
+FROM tomcat:10.1.14-jdk17
 
 # Set metadata for the image
 LABEL author="Akin"
