@@ -19,18 +19,18 @@ services:
     container_name: jendarey-mongo-one
     restart: always
     networks:
-      - jendarey-engineers-voting-result-app-main-project_jendarey-network-one
+      - jendarey-network-one
     environment:
       - MONGO_INITDB_ROOT_PASSWORD=admin123
       - MONGO_INITDB_ROOT_USERNAME=admin
     volumes:
-      - jendarey-engineers-voting-result-app-main-project_jendarey_mongo_data_one:/data/db
+      - jendarey_mongo_data_one:/data/db
 
 networks:
-  jendarey-engineers-voting-result-app-main-project_jendarey-network-one:
+  jendarey-network-one:
     driver: bridge
 
 volumes:
-  jendarey-engineers-voting-result-app-main-project_jendarey_mongo_data_one:
+  jendarey_mongo_data_one:
 
 
