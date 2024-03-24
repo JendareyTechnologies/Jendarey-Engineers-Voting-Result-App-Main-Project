@@ -34,7 +34,7 @@ CMD ["catalina.sh", "run"]
 
 
 
-# docker build . -t jendaredocker/jendarey-voting-app-main:v1
+# docker build . -t jendaredocker/jendarey-voting-app-main:v2
 # docker-compose up
 
 # docker exec -it ac7 bash 
