@@ -35,7 +35,7 @@ CMD ["catalina.sh", "run"]
 
 
 # docker build . -t jendaredocker/jendarey-voting-app-main:v2
-# docker-compose up
+# docker-compose up -d
 
 # docker exec -it ac7 bash 
 # ls /usr/local/tomcat/logs
