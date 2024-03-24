@@ -6,7 +6,7 @@ services:
     container_name: jendarey-voting-app-one
     restart: always
     ports:
-      - "5000:8080"
+      - "14500:8080"
     networks:
       - jendarey-network-one
     environment:
